@@ -5,7 +5,7 @@
       "repo": "https://github.com/ouroooo/android_kernel_xiaomi_sm6150",
       "branch": "lineage-17.1",
       "device": "violet",
-      "defconfig": "arch/arm64/configs/defconfig"
+      "defconfig": "defconfig"
     },
     "toolchains": [
   {
