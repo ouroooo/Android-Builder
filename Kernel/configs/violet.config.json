@@ -3,18 +3,22 @@
     "kernelSource": {
       "name": "QUJIKERNEL-violet",
       "repo": "https://github.com/ouroooo/android_kernel_xiaomi_sm6150",
-      "branch": "backup/lineage-17.1_20200811",
+      "branch": "lineage-17.1",
       "device": "violet",
       "defconfig": "arch/arm64/configs/defconfig"
     },
     "toolchains": [
-      {
-        "name": "proton-clang",
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
-        "binaryEnv": ["./bin"]
-      }
-    ],
+  {
+    "name": "clang",
+    "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+    "binaryEnv": ["./bin"]
+  },
+  {
+    "name": "gcc",
+    "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
+    "binaryEnv": ["bin"]
+  }
+]，
     "enableCcache": true,
     "params": {
       "ARCH": "arm64",
