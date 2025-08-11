@@ -9,10 +9,15 @@
     },
     "toolchains": [
   {
-    "name": "proton-clang",
-    "repo": "https://github.com/kdrag0n/proton-clang",
-    "branch": "master",
-    "binaryEnv": ["./bin"]
+    "name": "clang",
+    "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
+    "branch": "11",
+    "binaryEnv": ["bin"]
+  },
+  {
+    "name": "gcc",
+    "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
+    "binaryEnv": ["bin"]
   }
 ],
     "enableCcache": true,
