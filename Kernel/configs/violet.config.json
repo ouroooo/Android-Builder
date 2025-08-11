@@ -5,9 +5,7 @@
       "repo": "https://github.com/PixelExperience-Devices/device_xiaomi_sm6150-common",
       "branch": "ten",
       "device": "violet",
-      "defconfig": "arch/arm64/configs
-/defconfig
-"
+      "defconfig": "arch/arm64/configs/defconfig"
     },
     "toolchains": [
       {
