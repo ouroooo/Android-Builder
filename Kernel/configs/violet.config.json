@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "QUJIKERNEL-violet",
-      "repo": "https://github.com/xiaomi-sm6150/android_kernel_xiaomi_sm6150",
-      "branch": "20240217",
+      "repo": "https://github.com/ouroooo/android_kernel_xiaomi_sm6150",
+      "branch": "backup/lineage-17.1_20200811",
       "device": "violet",
       "defconfig": "arch/arm64/configs/defconfig"
     },
